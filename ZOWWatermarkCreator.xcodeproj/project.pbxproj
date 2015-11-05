@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F99809A51BEB91270031488B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F99809A41BEB91270031488B /* main.m */; };
+		F99809A81BEB91270031488B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F99809A71BEB91270031488B /* AppDelegate.m */; };
+		F99809AB1BEB91270031488B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F99809AA1BEB91270031488B /* ViewController.m */; };
+		F99809AE1BEB91270031488B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99809AC1BEB91270031488B /* Main.storyboard */; };
+		F99809B01BEB91270031488B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F99809AF1BEB91270031488B /* Assets.xcassets */; };
+		F99809B31BEB91270031488B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F99809B11BEB91270031488B /* LaunchScreen.storyboard */; };
+		F99809BE1BEB91270031488B /* ZOWWatermarkCreatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F99809BD1BEB91270031488B /* ZOWWatermarkCreatorTests.m */; };
+		F99809C91BEB91270031488B /* ZOWWatermarkCreatorUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F99809C81BEB91270031488B /* ZOWWatermarkCreatorUITests.m */; };
+		F99809DC1BEB92DE0031488B /* WaterMarkCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = F99809DB1BEB92DE0031488B /* WaterMarkCreator.m */; };
+		F99809DE1BEB93B90031488B /* lufy.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F99809DD1BEB93B90031488B /* lufy.jpg */; };
+		F99809E01BEB93D90031488B /* lufy-origin.jpg in Resources */ = {isa = PBXBuildFile; fileRef = F99809DF1BEB93D90031488B /* lufy-origin.jpg */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F99809BA1BEB91270031488B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99809981BEB91270031488B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F998099F1BEB91270031488B;
+			remoteInfo = ZOWWatermarkCreator;
+		};
+		F99809C51BEB91270031488B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F99809981BEB91270031488B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F998099F1BEB91270031488B;
+			remoteInfo = ZOWWatermarkCreator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F99809A01BEB91270031488B /* ZOWWatermarkCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZOWWatermarkCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99809A41BEB91270031488B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F99809A61BEB91270031488B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F99809A71BEB91270031488B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F99809A91BEB91270031488B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F99809AA1BEB91270031488B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F99809AD1BEB91270031488B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F99809AF1BEB91270031488B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F99809B21BEB91270031488B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F99809B41BEB91270031488B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99809B91BEB91270031488B /* ZOWWatermarkCreatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZOWWatermarkCreatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99809BD1BEB91270031488B /* ZOWWatermarkCreatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOWWatermarkCreatorTests.m; sourceTree = "<group>"; };
+		F99809BF1BEB91270031488B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99809C41BEB91270031488B /* ZOWWatermarkCreatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZOWWatermarkCreatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F99809C81BEB91270031488B /* ZOWWatermarkCreatorUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ZOWWatermarkCreatorUITests.m; sourceTree = "<group>"; };
+		F99809CA1BEB91270031488B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F99809DA1BEB92DE0031488B /* WaterMarkCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WaterMarkCreator.h; sourceTree = "<group>"; };
+		F99809DB1BEB92DE0031488B /* WaterMarkCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WaterMarkCreator.m; sourceTree = "<group>"; };
+		F99809DD1BEB93B90031488B /* lufy.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = lufy.jpg; sourceTree = "<group>"; };
+		F99809DF1BEB93D90031488B /* lufy-origin.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "lufy-origin.jpg"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F998099D1BEB91270031488B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99809B61BEB91270031488B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99809C11BEB91270031488B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F99809971BEB91270031488B = {
+			isa = PBXGroup;
+			children = (
+				F99809A21BEB91270031488B /* ZOWWatermarkCreator */,
+				F99809BC1BEB91270031488B /* ZOWWatermarkCreatorTests */,
+				F99809C71BEB91270031488B /* ZOWWatermarkCreatorUITests */,
+				F99809A11BEB91270031488B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F99809A11BEB91270031488B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F99809A01BEB91270031488B /* ZOWWatermarkCreator.app */,
+				F99809B91BEB91270031488B /* ZOWWatermarkCreatorTests.xctest */,
+				F99809C41BEB91270031488B /* ZOWWatermarkCreatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F99809A21BEB91270031488B /* ZOWWatermarkCreator */ = {
+			isa = PBXGroup;
+			children = (
+				F99809DF1BEB93D90031488B /* lufy-origin.jpg */,
+				F99809DD1BEB93B90031488B /* lufy.jpg */,
+				F99809D61BEB91660031488B /* ZOWWatermarkCreator */,
+				F99809A61BEB91270031488B /* AppDelegate.h */,
+				F99809A71BEB91270031488B /* AppDelegate.m */,
+				F99809A91BEB91270031488B /* ViewController.h */,
+				F99809AA1BEB91270031488B /* ViewController.m */,
+				F99809AC1BEB91270031488B /* Main.storyboard */,
+				F99809AF1BEB91270031488B /* Assets.xcassets */,
+				F99809B11BEB91270031488B /* LaunchScreen.storyboard */,
+				F99809B41BEB91270031488B /* Info.plist */,
+				F99809A31BEB91270031488B /* Supporting Files */,
+			);
+			path = ZOWWatermarkCreator;
+			sourceTree = "<group>";
+		};
+		F99809A31BEB91270031488B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F99809A41BEB91270031488B /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F99809BC1BEB91270031488B /* ZOWWatermarkCreatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				F99809BD1BEB91270031488B /* ZOWWatermarkCreatorTests.m */,
+				F99809BF1BEB91270031488B /* Info.plist */,
+			);
+			path = ZOWWatermarkCreatorTests;
+			sourceTree = "<group>";
+		};
+		F99809C71BEB91270031488B /* ZOWWatermarkCreatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F99809C81BEB91270031488B /* ZOWWatermarkCreatorUITests.m */,
+				F99809CA1BEB91270031488B /* Info.plist */,
+			);
+			path = ZOWWatermarkCreatorUITests;
+			sourceTree = "<group>";
+		};
+		F99809D61BEB91660031488B /* ZOWWatermarkCreator */ = {
+			isa = PBXGroup;
+			children = (
+				F99809DA1BEB92DE0031488B /* WaterMarkCreator.h */,
+				F99809DB1BEB92DE0031488B /* WaterMarkCreator.m */,
+			);
+			path = ZOWWatermarkCreator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F998099F1BEB91270031488B /* ZOWWatermarkCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99809CD1BEB91270031488B /* Build configuration list for PBXNativeTarget "ZOWWatermarkCreator" */;
+			buildPhases = (
+				F998099C1BEB91270031488B /* Sources */,
+				F998099D1BEB91270031488B /* Frameworks */,
+				F998099E1BEB91270031488B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZOWWatermarkCreator;
+			productName = ZOWWatermarkCreator;
+			productReference = F99809A01BEB91270031488B /* ZOWWatermarkCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F99809B81BEB91270031488B /* ZOWWatermarkCreatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99809D01BEB91270031488B /* Build configuration list for PBXNativeTarget "ZOWWatermarkCreatorTests" */;
+			buildPhases = (
+				F99809B51BEB91270031488B /* Sources */,
+				F99809B61BEB91270031488B /* Frameworks */,
+				F99809B71BEB91270031488B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99809BB1BEB91270031488B /* PBXTargetDependency */,
+			);
+			name = ZOWWatermarkCreatorTests;
+			productName = ZOWWatermarkCreatorTests;
+			productReference = F99809B91BEB91270031488B /* ZOWWatermarkCreatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F99809C31BEB91270031488B /* ZOWWatermarkCreatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F99809D31BEB91270031488B /* Build configuration list for PBXNativeTarget "ZOWWatermarkCreatorUITests" */;
+			buildPhases = (
+				F99809C01BEB91270031488B /* Sources */,
+				F99809C11BEB91270031488B /* Frameworks */,
+				F99809C21BEB91270031488B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F99809C61BEB91270031488B /* PBXTargetDependency */,
+			);
+			name = ZOWWatermarkCreatorUITests;
+			productName = ZOWWatermarkCreatorUITests;
+			productReference = F99809C41BEB91270031488B /* ZOWWatermarkCreatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F99809981BEB91270031488B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = stoncle;
+				TargetAttributes = {
+					F998099F1BEB91270031488B = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					F99809B81BEB91270031488B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F998099F1BEB91270031488B;
+					};
+					F99809C31BEB91270031488B = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = F998099F1BEB91270031488B;
+					};
+				};
+			};
+			buildConfigurationList = F998099B1BEB91270031488B /* Build configuration list for PBXProject "ZOWWatermarkCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F99809971BEB91270031488B;
+			productRefGroup = F99809A11BEB91270031488B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F998099F1BEB91270031488B /* ZOWWatermarkCreator */,
+				F99809B81BEB91270031488B /* ZOWWatermarkCreatorTests */,
+				F99809C31BEB91270031488B /* ZOWWatermarkCreatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F998099E1BEB91270031488B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99809E01BEB93D90031488B /* lufy-origin.jpg in Resources */,
+				F99809DE1BEB93B90031488B /* lufy.jpg in Resources */,
+				F99809B31BEB91270031488B /* LaunchScreen.storyboard in Resources */,
+				F99809B01BEB91270031488B /* Assets.xcassets in Resources */,
+				F99809AE1BEB91270031488B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99809B71BEB91270031488B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99809C21BEB91270031488B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F998099C1BEB91270031488B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99809AB1BEB91270031488B /* ViewController.m in Sources */,
+				F99809A81BEB91270031488B /* AppDelegate.m in Sources */,
+				F99809A51BEB91270031488B /* main.m in Sources */,
+				F99809DC1BEB92DE0031488B /* WaterMarkCreator.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99809B51BEB91270031488B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99809BE1BEB91270031488B /* ZOWWatermarkCreatorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F99809C01BEB91270031488B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F99809C91BEB91270031488B /* ZOWWatermarkCreatorUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F99809BB1BEB91270031488B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F998099F1BEB91270031488B /* ZOWWatermarkCreator */;
+			targetProxy = F99809BA1BEB91270031488B /* PBXContainerItemProxy */;
+		};
+		F99809C61BEB91270031488B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F998099F1BEB91270031488B /* ZOWWatermarkCreator */;
+			targetProxy = F99809C51BEB91270031488B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F99809AC1BEB91270031488B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99809AD1BEB91270031488B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F99809B11BEB91270031488B /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F99809B21BEB91270031488B /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F99809CB1BEB91270031488B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F99809CC1BEB91270031488B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F99809CE1BEB91270031488B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZOWWatermarkCreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWWatermarkCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F99809CF1BEB91270031488B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZOWWatermarkCreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWWatermarkCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		F99809D11BEB91270031488B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZOWWatermarkCreatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWWatermarkCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZOWWatermarkCreator.app/ZOWWatermarkCreator";
+			};
+			name = Debug;
+		};
+		F99809D21BEB91270031488B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZOWWatermarkCreatorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWWatermarkCreatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZOWWatermarkCreator.app/ZOWWatermarkCreator";
+			};
+			name = Release;
+		};
+		F99809D41BEB91270031488B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZOWWatermarkCreatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWWatermarkCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZOWWatermarkCreator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		F99809D51BEB91270031488B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZOWWatermarkCreatorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = stoncle.ZOWWatermarkCreatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZOWWatermarkCreator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F998099B1BEB91270031488B /* Build configuration list for PBXProject "ZOWWatermarkCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99809CB1BEB91270031488B /* Debug */,
+				F99809CC1BEB91270031488B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F99809CD1BEB91270031488B /* Build configuration list for PBXNativeTarget "ZOWWatermarkCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99809CE1BEB91270031488B /* Debug */,
+				F99809CF1BEB91270031488B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F99809D01BEB91270031488B /* Build configuration list for PBXNativeTarget "ZOWWatermarkCreatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99809D11BEB91270031488B /* Debug */,
+				F99809D21BEB91270031488B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		F99809D31BEB91270031488B /* Build configuration list for PBXNativeTarget "ZOWWatermarkCreatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F99809D41BEB91270031488B /* Debug */,
+				F99809D51BEB91270031488B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F99809981BEB91270031488B /* Project object */;
+}
