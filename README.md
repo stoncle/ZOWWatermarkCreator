@@ -1,6 +1,12 @@
 # ZOWWatermarkCreator
 add image or string water mark to your image and video media.
 
+## Installation
+Drag **WatermarkCreator.h** and **WatermarkCreator.m** into your project.Then import.
+```Objective-C
+#import "WatermarkCreator.h"
+```
+
 ## Usage
 * set WatermarkItem
 ```Objective-C
