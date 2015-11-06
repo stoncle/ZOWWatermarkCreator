@@ -89,6 +89,10 @@
                                           VisualSize:(CGSize)visualSize
                                             RealSize:(CGSize)realSize;
 {
+    if(visualSize.width==0 || visualSize.height==0)
+    {
+        visualSize = realSize;
+    }
     CGFloat realOriginX = (originalFrame.origin.x/visualSize.width)*realSize.width;
     CGFloat realOriginY = realSize.height*(1-(originalFrame.origin.y+originalFrame.size.height)/visualSize.height);
     CGFloat realWidth = (originalFrame.size.width/visualSize.width)*realSize.width;
@@ -101,6 +105,10 @@
                                      visualSize:(CGSize)visualSize
                                        realSize:(CGSize)realSize
 {
+    if(visualSize.width==0 || visualSize.height==0)
+    {
+        visualSize = realSize;
+    }
     CGFloat realOriginX = (originalFrame.origin.x/visualSize.width)*realSize.width;
     CGFloat realOriginY = (originalFrame.origin.y/visualSize.height)*realSize.height;
     CGFloat realWidth = (originalFrame.size.width/visualSize.width)*realSize.width;
